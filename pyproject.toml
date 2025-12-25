@@ -1,0 +1,16 @@
+[project]
+name = "gemini-blender-mcp"
+version = "0.1.0"
+description = "Gemini powered MCP-style bridge for Blender"
+authors = [
+    { name = "Chinmay Rao" }
+]
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "pyperclip"
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
